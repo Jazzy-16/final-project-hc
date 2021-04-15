@@ -1,0 +1,105 @@
+
+html, body { 
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+header {
+    /* border: 1px solid; */
+}
+header > nav {
+    padding-top: 20px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+nav ul { 
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    
+}
+
+nav a {
+    color: gray;
+    font-size: 32px;
+    text-decoration: none;
+    text-shadow: 5px 5px 30px darkred;
+ }
+
+ /* content */
+ main {
+     /* border: 1px solid red; */
+ }
+.title {
+    padding: 25px;
+}
+ .title h1 {
+     text-align: center;
+ }
+
+ .info {
+    padding: 25px;
+ }
+ .table-data {
+    display: flex;
+}
+
+.sahur {
+    flex-basis: 25%;
+}
+
+.iftar {
+    flex-basis: 25%;
+}
+
+.meal-images {
+    flex-basis: 50%;
+    padding: 0 20px;
+}
+.meal-images img {
+   height: auto;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 5px;
+}
+
+td, th {
+    border: 1px solid lightgray;
+    padding: 19px 5px ;
+    border-radius: 5px;
+}
+th {
+    background-color: rgb(234, 253, 227);
+    font-size: 25px;
+}
+td {
+    font-size: 20px;
+}
+
+.title p { 
+    text-decoration-style: wavy;
+    text-decoration-style: wavy;
+    font-size: large;
+    font-style: oblique;
+}
+
+.title h1{
+    font-style: oblique;
+    font-size: 50px;
+}
+
+/* footer */
+footer {
+    padding: 20px;
+    text-align: center;
+}
