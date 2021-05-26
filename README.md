@@ -1,3 +1,5 @@
+https://img.shields.io/github/languages/code-size/jazzy-16/final-project-hc
+
 # final-project-hc
 You can clone via this link: (https://github.com/Jazzy-16/final-project-hc)
 
